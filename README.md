@@ -78,7 +78,7 @@ Open-source alternatives, firmware, reverse-engineering tools, and software you 
 
 ### 🏆 Top Open-Source Telematics & EV Repositories (Ranked by Stars) ⭐
 
-All repositories sorted descending by GitHub star count:
+All repositories sorted descending by GitHub Stars_Count:
 
 1. **[commaai/openpilot](https://github.com/commaai/openpilot)** <a href="https://github.com/commaai/openpilot/stargazers"><img src="https://img.shields.io/github/stars/commaai/openpilot?style=social&color=white" alt="Stars"/></a>  
    Open-source driver assistance system (ADAS) that performs automated cruise control, lane centering, and forward collision warnings for 250+ supported car models. Built upon extensive CAN/video telematics.

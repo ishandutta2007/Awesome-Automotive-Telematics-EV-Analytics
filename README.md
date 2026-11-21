@@ -38,31 +38,20 @@ This list prioritizes **open-source GitHub projects** while keeping SaaS/hosted 
 
 ## SaaS / Hosted Platforms
 
+These are popular commercial automotive telematics, fleet management, and EV analytics platforms (closed-source / hosted), sorted descending by company size (valuation / market capitalization):
 
-
-These are popular commercial automotive telematics, fleet management, and EV analytics platforms (closed-source / hosted):
-
-
-
-- **[Geotab](https://www.geotab.com/)** — Leading telematics platform with GO devices, extensive vehicle data, EV-specific insights, and Marketplace integrations.
-
-- **[Samsara](https://www.samsara.com/)** — Cloud-based fleet platform combining GPS tracking, AI cameras, EV charging management, and real-time dashboards.
-
-- **[Verizon Connect](https://www.verizonconnect.com/)** — Comprehensive fleet tracking, routing, compliance, and telematics with strong North American coverage.
-
-- **[Teletrac Navman](https://www.teletracnavman.com/)** — GPS fleet tracking, driver behavior, and asset management solutions.
-
-- **[Fleet Complete](https://www.fleetcomplete.com/)** — End-to-end fleet management with telematics, ELD, and field service tools.
-
-- **[Trimble Transportation](https://www.trimble.com/)** — Enterprise transportation management, fleet telematics, and logistics optimization.
-
-- **[Motive (formerly KeepTruckin)](https://gomotive.com/)** — AI-powered fleet management with ELD, cameras, and vehicle health monitoring.
-
-- **[Webfleet (Bridgestone)](https://www.webfleet.com/)** — European-focused fleet management with real-time tracking and EV optimization.
-
-- **[Cartrack](https://www.cartrack.com/)** — Global vehicle tracking, recovery, and fleet analytics platform.
-
-- **[PowerFleet](https://www.powerfleet.com/)** — Industrial and commercial vehicle telematics with asset tracking and IoT integration.
+| Platform | Company Size (Valuation / Market Cap) | Starting Pricing | Free Tier / Free Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Verizon Connect](https://www.verizonconnect.com/)** | ~$190B Market Cap (Parent Verizon) / ~$138B Revenue | ~$20 – $25 / vehicle / month | 30-day free trial (starts 5 days post-hardware shipment; requires demo/sales activation; hardware return required if not subscribing) | Comprehensive fleet tracking, routing, compliance, and telematics with strong North American coverage. |
+| **[Webfleet](https://www.webfleet.com/)** | ~$33B Market Cap (Parent Bridgestone; €910M / ~$1B unit acq.) | ~$15 – $35 / vehicle / month (£10 – £35/mo) | Free live demo & custom pilot trial program (duration agreed upon with sales; no self-serve free forever tier) | European-focused fleet management with real-time tracking, tachograph integration, and EV optimization. |
+| **[Samsara](https://www.samsara.com/)** | ~$24B Market Cap / ~$1.7B ARR | ~$27 – $33 / vehicle / month | 30-day free trial (includes test hardware returnable within 30 days via provided label; no permanent free tier) | Cloud-based fleet platform combining GPS tracking, AI cameras, EV charging management, and real-time dashboards. |
+| **[Trimble Transportation](https://www.trimble.com/)** | ~$12.6B Market Cap / ~$3.8B Revenue | ~$30 – $100 / vehicle / month (modular fleet tracking) | 14-day free trial on developer/routing tools (PC*Miler); live product demonstration / pilot evaluation for core TMS (no permanent free tier) | Enterprise transportation management, fleet telematics, routing, and logistics optimization. |
+| **[Teletrac Navman](https://www.teletracnavman.com/)** | ~$5.8B Market Cap (Parent Vontier; ~$220M majority divestment) | ~$25 – $35 / vehicle / month (min. 3 vehicles) | Live scheduled demo & customized test walkthrough (no self-serve free tier; requires sales engagement) | GPS fleet tracking, TN360 AI-powered analytics, driver behavior, and asset management solutions. |
+| **[Motive](https://gomotive.com/)** | ~$2.85B Valuation / ~$600M ARR | ~$20 – $25 / vehicle / month (Starter tier) | 90-day free trial available for select add-on workforce software features; live interactive demo for fleet tracking (no permanent free tier) | AI-powered fleet management with ELD, AI dashcams, spend management, and vehicle health monitoring. |
+| **[Geotab](https://www.geotab.com/)** | ~$2B+ Valuation (Est.) / ~$800M+ Revenue | ~$30 – $40 / vehicle / month (GO Core Plan) | Free pilot demo device evaluation unit through authorized resellers & interactive software demo (no self-serve permanent free tier) | Leading telematics platform with GO devices, extensive vehicle data, EV-specific insights, and Marketplace integrations. |
+| **[Cartrack](https://www.cartrack.com/)** | ~$1.7B Market Cap (Parent Karooooo Ltd) / ~$354M ARR | ~$6 – $20+ / vehicle / month (from R99 – R260/mo) | Scheduled live demo & guided fleet consultation (no self-serve free tier or free trial) | Global vehicle tracking, stolen vehicle recovery, and fleet analytics platform with 2M+ subscribers. |
+| **[PowerFleet](https://www.powerfleet.com/)** | ~$280M Market Cap / ~$450M Revenue (Combined) | ~$30 – $60 / vehicle / month | Live software demonstration & enterprise pilot walkthrough via Unity platform (no self-serve free tier) | Industrial and commercial vehicle telematics with asset tracking, VisionAI, and IoT integration. |
+| **[Fleet Complete](https://www.fleetcomplete.com/)** | ~$200M Acquisition Value (Acquired by Powerfleet) / ~$105M ARR | ~$15 – $40 / vehicle / month | Scheduled live product demonstration & fleet needs assessment (no self-serve free tier) | End-to-end fleet management with telematics, ELD compliance, and field service tools. |
 
 
 

@@ -1,42 +1,59 @@
-# Awesome-Automotive-Telematics-EV-Analytics
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Automotive Telematics & EV Analytics Banner" width="100%" />
+</p>
 
-# Awesome-Automotive-Telematics-EV-Analytics
+# Awesome Automotive Telematics & EV Analytics 🌟🚗⚡
 
-# Awesome Automotive Telematics & EV Analytics 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics" alt="Open Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-
-
-> **Top Automotive Telematics EV Analytics (Opensource)**  
-
-> A curated list of the best automotive telematics platforms, fleet management systems, and EV analytics tools — with a strong focus on **open-source** and self-hostable alternatives.  
-
+> 🛰️ **Curated open-source telematics platforms, EV analytics tools, fleet management systems, CAN bus reverse-engineering stacks, and OBD-II diagnostics.**  
+> 💡 *A community resource prioritizing self-hostable tools, data ownership, zero per-vehicle SaaS subscription fees, and smart charging infrastructure.*  
 > 🌟 **Star if you like it!** 🌟
 
+---
 
+## 📖 Overview & SEO Focus 🔍
 
-Automotive telematics and EV analytics platforms collect real-time vehicle data (GPS, OBD-II, CAN bus, battery metrics, driver behavior, charging sessions) to enable fleet tracking, predictive maintenance, energy optimization, safety monitoring, and operational insights. Commercial leaders such as Geotab, Samsara, and Motive dominate the hosted market, while a growing open-source ecosystem offers full data ownership, hardware flexibility, and no per-vehicle fees.
+Automotive telematics and electric vehicle (EV) analytics platforms aggregate real-time vehicle telemetry—including GPS coordinates, OBD-II diagnostic trouble codes (DTC), CAN bus signals, battery state of charge (SoC), state of health (SoH), driver safety scores, regenerative braking efficiency, and smart charging sessions (OCPP/ISO 15118). 
 
+Whether you are building autonomous vehicle pipelines, orchestrating smart commercial fleet operations, collecting private Tesla/BYD metrics, or developing open-source hardware controllers, this directory indexes top self-hosted and open-source GitHub software alongside key enterprise platforms.
 
+---
 
-This list prioritizes **open-source GitHub projects** while keeping SaaS/hosted platforms clearly separated.
+## 📑 Table of Contents 📌
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics-)
+- [SaaS / Hosted Platforms](#-saas--hosted-platforms-)
+- [Open-Source GitHub Projects](#-open-source-github-projects-)
+  - [Top Open-Source Telematics & EV Repositories (Ranked by Stars)](#-top-open-source-telematics--ev-repositories-ranked-by-stars-)
+  - [Full Fleet Tracking & Telematics Platforms](#-full-fleet-tracking--telematics-platforms-)
+  - [EV Telemetry, Battery Analytics & Smart Charging](#-ev-telemetry-battery-analytics--smart-charging-)
+  - [OBD-II, CAN Bus, Dongles & Hardware Reverse Engineering](#-obd-ii-can-bus-dongles--hardware-reverse-engineering-)
+  - [Additional Notable Frameworks & Protocols](#-additional-notable-frameworks--protocols-)
+- [Star History](#-star-history-)
+- [Support](#-support-)
+- [How to Contribute](#-how-to-contribute-)
+- [Disclaimer](#-disclaimer-)
 
+---
 
-## Table of Contents
+## 📊 Sector Overview & Market Dynamics 🌐
 
+The global automotive commercial telematics and EV fleet management market was estimated at approximately **$75 Billion to $85 Billion in 2024–2025** and is projected to expand past **$180 Billion by 2030–2032** at an annual compound growth rate (CAGR) of ~15–18%, propelled by mandatory electronic logging device (ELD) regulations, corporate net-zero electrification mandates, and AI-enabled video telematics.
 
+The sector is **moderately fragmented** rather than a winner-take-all monopoly: while telecommunications giants (Verizon Connect) and high-growth IoT pure-plays (Samsara, Geotab) command substantial market share in long-haul freight and commercial logistics, regional compliance variations, diverse vehicle proprietary CAN architectures, specialized last-mile delivery demands, and stringent data-sovereignty requirements sustain hundreds of specialized regional vendors and accelerate the rapid adoption of **self-hosted, open-source telematics stacks**.
 
-- [SaaS / Hosted Platforms](#saas--hosted-platforms)
+---
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS / Hosted Platforms
+## 🏢 SaaS / Hosted Platforms ☁️
 
 These are popular commercial automotive telematics, fleet management, and EV analytics platforms (closed-source / hosted), sorted descending by company size (valuation / market capitalization):
 
@@ -53,176 +70,172 @@ These are popular commercial automotive telematics, fleet management, and EV ana
 | **[PowerFleet](https://www.powerfleet.com/)** | ~$280M Market Cap / ~$450M Revenue (Combined) | ~$30 – $60 / vehicle / month | Live software demonstration & enterprise pilot walkthrough via Unity platform (no self-serve free tier) | Industrial and commercial vehicle telematics with asset tracking, VisionAI, and IoT integration. |
 | **[Fleet Complete](https://www.fleetcomplete.com/)** | ~$200M Acquisition Value (Acquired by Powerfleet) / ~$105M ARR | ~$15 – $40 / vehicle / month | Scheduled live product demonstration & fleet needs assessment (no self-serve free tier) | End-to-end fleet management with telematics, ELD compliance, and field service tools. |
 
+---
 
+## 🛠️ Open-Source GitHub Projects 💻
 
-## Open-Source GitHub Projects
+Open-source alternatives, firmware, reverse-engineering tools, and software you can self-host, run on your own hardware, or customize without monthly per-device fees.
 
+### 🏆 Top Open-Source Telematics & EV Repositories (Ranked by Stars) ⭐
 
+All repositories sorted descending by GitHub star count:
 
-Open-source alternatives and tools you can self-host, run on your own hardware, or extend. These range from full GPS tracking servers and vehicle monitoring systems to EV-specific analytics, OBD/CAN tools, and charging management.
+1. **[commaai/openpilot](https://github.com/commaai/openpilot)** <a href="https://github.com/commaai/openpilot/stargazers"><img src="https://img.shields.io/github/stars/commaai/openpilot?style=social&color=white" alt="Stars"/></a>  
+   Open-source driver assistance system (ADAS) that performs automated cruise control, lane centering, and forward collision warnings for 250+ supported car models. Built upon extensive CAN/video telematics.
 
+2. **[teslamate-org/teslamate](https://github.com/teslamate-org/teslamate)** <a href="https://github.com/teslamate-org/teslamate/stargazers"><img src="https://img.shields.io/github/stars/teslamate-org/teslamate?style=social&color=white" alt="Stars"/></a>  
+   A powerful, self-hosted data logger for Tesla vehicles written in Elixir. Visualizes driving efficiency, vampire drain, battery degradation, charging curves, and trip history through Grafana dashboards without exposing telemetry to third parties.
 
+3. **[traccar/traccar](https://github.com/traccar/traccar)** <a href="https://github.com/traccar/traccar/stargazers"><img src="https://img.shields.io/github/stars/traccar/traccar?style=social&color=white" alt="Stars"/></a>  
+   The world's leading open-source GPS tracking and telematics server. Supports 200+ communication protocols and 2,000+ tracker models. Features geofencing, driver behavior scoring, trip reports, notifications, and REST APIs.
 
-### Full Fleet Tracking & Telematics Platforms
+4. **[evcc-io/evcc](https://github.com/evcc-io/evcc)** <a href="https://github.com/evcc-io/evcc/stargazers"><img src="https://img.shields.io/github/stars/evcc-io/evcc?style=social&color=white" alt="Stars"/></a>  
+   Extensible EV charging controller designed for solar photovoltaic (PV) surplus charging and dynamic electricity tariffs. Supports dozens of wallboxes, home energy management systems (HEMS), and vehicle telemetry APIs.
 
+5. **[fleetbase/fleetbase](https://github.com/fleetbase/fleetbase)** <a href="https://github.com/fleetbase/fleetbase/stargazers"><img src="https://img.shields.io/github/stars/fleetbase/fleetbase?style=social&color=white" alt="Stars"/></a>  
+   Modular open-source logistics and supply chain operating system (LSOS). Delivers end-to-end fleet tracking, route dispatching, real-time vehicle telematics, service orders, and webhooks.
 
+6. **[commaai/opendbc](https://github.com/commaai/opendbc)** <a href="https://github.com/commaai/opendbc/stargazers"><img src="https://img.shields.io/github/stars/commaai/opendbc?style=social&color=white" alt="Stars"/></a>  
+   Comprehensive open repository of DBC files and Python APIs for decoding CAN bus telemetry (gas, brake, steering wheel angle, wheel speeds, radar signals) across modern automotive brands.
 
-- **[traccar/traccar](https://github.com/traccar/traccar)**  
+7. **[commaai/panda](https://github.com/commaai/panda)** <a href="https://github.com/commaai/panda/stargazers"><img src="https://img.shields.io/github/stars/commaai/panda?style=social&color=white" alt="Stars"/></a>  
+   Universal vehicle interface hardware and firmware supporting 3x CAN, 2x LIN, and GPS. Connects vehicle OBD-II/CAN networks to computers over USB and Wi-Fi.
 
-  The most popular open-source GPS tracking platform. Supports 200+ device protocols and 2000+ tracker models. Real-time tracking, geofencing, reports, driver behavior, and REST API. Fully self-hostable (Java backend + web UI). Excellent for fleets of any size. ~8k+ stars.
+8. **[brendan-w/python-OBD](https://github.com/brendan-w/python-OBD)** <a href="https://github.com/brendan-w/python-OBD/stargazers"><img src="https://img.shields.io/github/stars/brendan-w/python-OBD?style=social&color=white" alt="Stars"/></a>  
+   Python module for communicating with ELM327 OBD-II adapters. Reads vehicle sensor data, diagnostic trouble codes (DTCs), RPM, speed, engine load, and real-time fuel efficiency.
 
+9. **[openvehicles/Open-Vehicle-Monitoring-System-3](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3)** (OVMS) <a href="https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3/stargazers"><img src="https://img.shields.io/github/stars/openvehicles/Open-Vehicle-Monitoring-System-3?style=social&color=white" alt="Stars"/></a>  
+   Hardware and firmware for complete EV remote telemetry, diagnostics, and climate control. Monitors state of charge, individual cell temperatures, tyre pressures, and alerts via cellular/Wi-Fi.
 
+10. **[EVerest/everest-core](https://github.com/EVerest/everest-core)** <a href="https://github.com/EVerest/everest-core/stargazers"><img src="https://img.shields.io/github/stars/EVerest/everest-core?style=social&color=white" alt="Stars"/></a>  
+    Open-source EV charging operating system by the Linux Foundation Energy (LFE). Implements OCPP 1.6/2.0.1, ISO 15118 (Plug & Charge), and dynamic charge management.
 
-- **[fleetbase/fleetbase](https://github.com/fleetbase/fleetbase)**  
+11. **[OpenEVSE/openevse_esp32_firmware](https://github.com/OpenEVSE/openevse_esp32_firmware)** <a href="https://github.com/OpenEVSE/openevse_esp32_firmware/stargazers"><img src="https://img.shields.io/github/stars/OpenEVSE/openevse_esp32_firmware?style=social&color=white" alt="Stars"/></a>  
+    ESP32 WiFi/BLE gateway firmware for OpenEVSE smart charging stations. Enables real-time energy monitoring, MQTT telemetry, solar tracking, and OCPP server integration.
 
-  Modular open-source logistics and supply chain operating system (LSOS). Includes fleet management, live tracking, dispatch, order management, and extensible architecture. Self-hostable with REST API and webhooks. ~4.7k stars.
+12. **[uhi22/pyPLC](https://github.com/uhi22/pyPLC)** <a href="https://github.com/uhi22/pyPLC/stargazers"><img src="https://img.shields.io/github/stars/uhi22/pyPLC?style=social&color=white" alt="Stars"/></a>  
+    Python implementation of CCS (Combined Charging System) Powerline Communication (PLC) based on DIN 70121 and ISO 15118 for EV charging analysis, sniffer logs, and smart charging research.
 
+13. **[iUnreallx/ReDrive](https://github.com/iUnreallx/ReDrive)** <a href="https://github.com/iUnreallx/ReDrive/stargazers"><img src="https://img.shields.io/github/stars/iUnreallx/ReDrive?style=social&color=white" alt="Stars"/></a>  
+    Modern cross-platform OBD2 dashboard application written in Flutter. Displays live vehicle metrics, custom digital gauge clusters, and reads/clears ECU trouble codes via ELM327 adapters.
 
+14. **[gx0r/agilegps](https://github.com/gx0r/agilegps)** <a href="https://github.com/gx0r/agilegps/stargazers"><img src="https://img.shields.io/github/stars/gx0r/agilegps?style=social&color=white" alt="Stars"/></a>  
+    Multi-tenant real-time fleet telematics system built with Node.js and RethinkDB. Engineered specifically for Queclink GPS tracking hardware and live OBD telemetry.
 
-- **[openvehicles/Open-Vehicle-Monitoring-System-3](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3)** (OVMS)  
+15. **[angoikon/byd-trip-stats](https://github.com/angoikon/byd-trip-stats)** <a href="https://github.com/angoikon/byd-trip-stats/stargazers"><img src="https://img.shields.io/github/stars/angoikon/byd-trip-stats?style=social&color=white" alt="Stars"/></a>  
+    Native Android telemetry dashboard for BYD electric & hybrid vehicles (DiLink infotainment systems). Records trip energy efficiency, realistic remaining range, battery cell thermal heatmaps, and offline logs.
 
-  Complete open-source vehicle remote monitoring, diagnosis, and control system. Hardware module + software for live metrics (SoC, temperatures, tyre pressures, faults), alerts, remote control, and fleet monitoring. Excellent EV support and highly scriptable. Hardware + software fully open.
+16. **[tzebrowski/ObdGraphs](https://github.com/tzebrowski/ObdGraphs)** <a href="https://github.com/tzebrowski/ObdGraphs/stargazers"><img src="https://img.shields.io/github/stars/tzebrowski/ObdGraphs?style=social&color=white" alt="Stars"/></a>  
+    Android diagnostic telemetry tool designed for high-frequency graphing of ELM327 and STN1170 OBD parameters with multi-sensor CSV export.
 
+17. **[speed785/open-mechanic](https://github.com/speed785/open-mechanic)** <a href="https://github.com/speed785/open-mechanic/stargazers"><img src="https://img.shields.io/github/stars/speed785/open-mechanic?style=social&color=white" alt="Stars"/></a>  
+    AI-assisted vehicle diagnostic engine that pairs OBD-II adapter inputs with LLMs to provide plain-language fault diagnostics and step-by-step repair guides.
 
+18. **[WayBetterSolutions/OCTAVE](https://github.com/WayBetterSolutions/OCTAVE)** <a href="https://github.com/WayBetterSolutions/OCTAVE/stargazers"><img src="https://img.shields.io/github/stars/WayBetterSolutions/OCTAVE?style=social&color=white" alt="Stars"/></a>  
+    Modular infotainment and telematics OS designed for Raspberry Pi, laptops, and in-car embedded displays with OBD-II integration and custom digital dash skins.
 
-- **[bkbilly/Routario](https://github.com/bkbilly/Routario)**  
+19. **[bkbilly/Routario](https://github.com/bkbilly/Routario)** <a href="https://github.com/bkbilly/Routario/stargazers"><img src="https://img.shields.io/github/stars/bkbilly/Routario?style=social&color=white" alt="Stars"/></a>  
+    Self-hosted vehicle tracking suite featuring real-time map plotting, geofence enter/exit triggers, sensor event logs, and no external cloud dependency.
 
-  Self-hosted real-time fleet tracking with live maps, smart alerts, trip history, geofences, and sensor analytics. Supports common GPS hardware protocols. No subscriptions and full data ownership.
+20. **[appspace/kwwhat](https://github.com/appspace/kwwhat)** <a href="https://github.com/appspace/kwwhat/stargazers"><img src="https://img.shields.io/github/stars/appspace/kwwhat?style=social&color=white" alt="Stars"/></a>  
+    Data build tool (dbt) data models transforming raw OCPP charging logs into executive EV analytics on charger uptime, utilization, and failed charging attempts.
 
+21. **[sachnaror/fleet-management-system](https://github.com/sachnaror/fleet-management-system)** <a href="https://github.com/sachnaror/fleet-management-system/stargazers"><img src="https://img.shields.io/github/stars/sachnaror/fleet-management-system?style=social&color=white" alt="Stars"/></a>  
+    FastAPI & Python microservice architecture for vehicle fleet monitoring, CAN/GPS intake, driver violation scoring, and live maintenance scheduling.
 
+22. **[Mindfactory89/ev-charging-dashboard](https://github.com/Mindfactory89/ev-charging-dashboard)** <a href="https://github.com/Mindfactory89/ev-charging-dashboard/stargazers"><img src="https://img.shields.io/github/stars/Mindfactory89/ev-charging-dashboard?style=social&color=white" alt="Stars"/></a>  
+    PWA and web dashboard for tracking multi-vehicle EV charging cycles, charging efficiency forecasts, session costs, and PostgreSQL storage.
 
-- **[gx0r/agilegps](https://github.com/gx0r/agilegps)**  
-
-  Real-time fleet tracking software focused on Queclink devices. Multi-tenant, Node.js + RethinkDB, maps, reports, and OBD diagnostics support.
-
-
-
-### EV-Specific Analytics & Telemetry
-
-
-
-- **[angoikon/byd-trip-stats](https://github.com/angoikon/byd-trip-stats)**  
-
-  Feature-rich Android analytics dashboard for BYD BEV/PHEV vehicles (DiLink 3/5/100). Runs directly on the car’s infotainment screen. Trip recording, real-time range projection based on actual consumption, charging curves, battery health, heatmaps, and offline storage. Source-available and actively maintained.
-
-
-
-- **[erc-fhv/open-ev-fleet](https://github.com/erc-fhv/open-ev-fleet)**  
-
-  Research-oriented monorepo for electric vehicle fleet management. Python and Julia packages for optimization algorithms, charging simulation, data processing, and MILP/heuristic solvers.
-
-
-
-- **[Mindfactory89/ev-charging-dashboard](https://github.com/Mindfactory89/ev-charging-dashboard)**  
-
-  Self-hosted multi-vehicle EV charging dashboard with analytics, forecasts, session management, and PostgreSQL backend. PWA support and modern UI.
-
-
-
-- **[appspace/kwwhat](https://github.com/appspace/kwwhat)**  
-
-  Open-source dbt models that turn raw OCPP logs into structured EV charging analytics (reliability, utilization, charge attempts, visits).
-
-
-
-- **[OpenEVSE](https://github.com/OpenEVSE)** (organization)  
-
-  Open-source electric vehicle supply equipment (EVSE) firmware, hardware, and WiFi gateway projects for DIY and commercial charging stations.
-
-
-
-### OBD-II, CAN Bus & Vehicle Data Tools
-
-
-
-- **[commaai/opendbc](https://github.com/commaai/opendbc)**  
-
-  Python API for reading and writing vehicle CAN data. Supports gas, brake, steering, and many signals across modern cars. Foundation for openpilot and vehicle reverse engineering. ~3.6k+ stars.
-
-
-
-- **[iUnreallx/ReDrive](https://github.com/iUnreallx/ReDrive)**  
-
-  Open-source OBD2 dashboard app (Flutter) for real-time sensor data, DTC reading/clearing, and diagnostics via Bluetooth/Wi-Fi/USB ELM327 adapters.
-
-
-
-- **[WayBetterSolutions/OCTAVE](https://github.com/WayBetterSolutions/OCTAVE)**  
-
-  Cross-platform open-source telematics and infotainment system. OBD-II data, custom dashboards, phone mirroring, and full theming. Runs on Pi, laptop, or Android.
-
-
-
-- **[tzebrowski/ObdGraphs](https://github.com/tzebrowski/ObdGraphs)**  
-
-  Android application for collecting and visualizing vehicle telemetry via ELM327/STN adapters. Real-time gauges and data logging.
-
-
-
-- **[speed785/open-mechanic](https://github.com/speed785/open-mechanic)**  
-
-  Open-source AI-powered car diagnostics. Connects OBD-II adapters and uses LLMs for plain-English fault diagnosis and repair guides.
-
-
-
-### Additional Notable Projects
-
-
-
-- **Eclipse CANought** (Eclipse Foundation / Cummins, Bosch, KPIT) — Open-source standardized CAN access layer for commercial vehicle telematics under the Eclipse Software Defined Vehicle initiative.
-
-- **[sachnaror/fleet-management-system](https://github.com/sachnaror/fleet-management-system)** — Python/FastAPI fleet platform with OBD-II, CAN, GPS, driver behavior, and live dashboard.
-
-- Various OBD databases and signal sets (e.g., community OBDb efforts) that document vehicle-specific parameters and DTCs.
-
-
-
-> **Tip**: For pure GPS fleet tracking, start with **Traccar**. For deep EV monitoring and control, **OVMS** is the gold standard. For modern vehicle data access and reverse engineering, **opendbc** is essential. Many projects can be combined (e.g., Traccar + custom OBD collectors + EV analytics dashboards).
-
-
-
-## How to Contribute
-
-
-
-Contributions are welcome and encouraged!
-
-
-
-1. Fork the repository
-
-2. Add a new tool under the appropriate section (keep SaaS and Open-Source strictly separate)
-
-3. Use the same format: **Name** — short description + key features + license/link
-
-4. Prefer actively maintained projects with clear documentation and real vehicle/hardware support
-
-5. Submit a Pull Request
-
-
-
-Please keep descriptions neutral and factual. Open-source projects are the primary focus of this list.
-
-
-
-## Disclaimer
-
-
-
-This is a community-curated list for informational purposes only.  
-
-Inclusion does not constitute an endorsement. Always review licenses, privacy policies, hardware compatibility, safety implications, and legal requirements (especially regarding vehicle data, driver privacy, and regulatory compliance such as ELD or GDPR) before deploying any tool in production.
-
-
-
-Some “open-source” projects may include proprietary SDKs, dual licensing, or require paid cloud services for certain features. Check the actual LICENSE file, documentation, and hardware requirements carefully. Vehicle data collection can have significant privacy and safety implications.
-
-
+23. **[erc-fhv/open-ev-fleet](https://github.com/erc-fhv/open-ev-fleet)** <a href="https://github.com/erc-fhv/open-ev-fleet/stargazers"><img src="https://img.shields.io/github/stars/erc-fhv/open-ev-fleet?style=social&color=white" alt="Stars"/></a>  
+    Scientific simulation and MILP optimization suite written in Julia and Python for electric commercial fleet scheduling, depot charging, and battery degradation modeling.
 
 ---
 
+### 🚚 Full Fleet Tracking & Telematics Platforms 📍
 
+- **[Traccar](https://github.com/traccar/traccar)** — Enterprise-ready Java GPS tracking server supporting virtually all cellular GPS protocols, push notifications, and customizable map layers.
+- **[Fleetbase](https://github.com/fleetbase/fleetbase)** — Full-featured supply chain and fleet operations OS with routing optimization, live dispatch consoles, and open developer APIs.
+- **[Routario](https://github.com/bkbilly/Routario)** — Lightweight, privacy-respecting GPS tracking platform with geofence boundaries and trip replay.
+- **[AgileGPS](https://github.com/gx0r/agilegps)** — Real-time tracking architecture tailored for Queclink trackers and remote OBD-II diagnostic streaming.
 
-**Made with ❤️ for the open-source community**  
+---
 
-If this list helped you, please ⭐ the repo!
+### ⚡ EV Telemetry, Battery Analytics & Smart Charging 🔋
+
+- **[TeslaMate](https://github.com/teslamate-org/teslamate)** — Self-hosted Docker stack collecting Tesla telemetry via Streaming API; provides deep battery health degradation curves, vampire loss tracking, and trip costs.
+- **[evcc](https://github.com/evcc-io/evcc)** — Smart EV charging controller written in Go. Prioritizes renewable solar energy, dynamically optimizes charging times against spot electricity prices, and interfaces with dozens of wallbox models.
+- **[EVerest Core](https://github.com/EVerest/everest-core)** — Linux Foundation Energy initiative standardizing EVSE charging controller stacks, supporting ISO 15118 and OCPP 2.0.1.
+- **[OpenEVSE WiFi](https://github.com/OpenEVSE/openevse_esp32_firmware)** — Open charging hardware firmware with REST, MQTT, and OCPP telemetry hooks.
+- **[BYD Trip Stats](https://github.com/angoikon/byd-trip-stats)** — In-car analytics APK for BYD electric cars calculating true battery range, consumption curves, and thermal health.
+- **[pyPLC](https://github.com/uhi22/pyPLC)** — Combined Charging System (CCS) DIN 70121 / ISO 15118 powerline communication sniffer and tester.
+- **[open-ev-fleet](https://github.com/erc-fhv/open-ev-fleet)** — Academic simulation frameworks for optimal commercial EV fleet dispatching and depot charging.
+- **[kWwhat](https://github.com/appspace/kwwhat)** — dbt data transformation pipelines for EV charging station reliability and uptime metrics.
+- **[EV Charging Dashboard](https://github.com/Mindfactory89/ev-charging-dashboard)** — Self-hosted charging cost and session tracking dashboard.
+
+---
+
+### 🔌 OBD-II, CAN Bus, Dongles & Hardware Reverse Engineering 🚗
+
+- **[comma openpilot](https://github.com/commaai/openpilot)** — Cutting-edge autonomous driving agent and telematics processor.
+- **[comma opendbc](https://github.com/commaai/opendbc)** — The industry standard open repository of CAN bus DBC definitions and vehicle signal decoders.
+- **[comma panda](https://github.com/commaai/panda)** — The universal OBD-II to USB/WiFi vehicle interface hardware.
+- **[python-OBD](https://github.com/brendan-w/python-OBD)** — Reliable Python library to interface with ELM327 Bluetooth/USB diagnostics.
+- **[OVMS 3](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3)** — Hardware and software telemetry module connecting EV CAN networks to self-hosted servers via cellular/WiFi.
+- **[ReDrive](https://github.com/iUnreallx/ReDrive)** — Polished Flutter OBD-II dashboard for real-time telemetry meters and DTC clearing.
+- **[OCTAVE](https://github.com/WayBetterSolutions/OCTAVE)** — DIY telematics and custom digital dashboard display system.
+- **[Open Mechanic](https://github.com/speed785/open-mechanic)** — AI-driven vehicle diagnostics matching OBD-II trouble codes with repair recommendations.
+- **[ObdGraphs](https://github.com/tzebrowski/ObdGraphs)** — Telemetry charting and high-frequency OBD signal recorder for Android.
+
+---
+
+### 🌐 Additional Notable Frameworks & Protocols 📡
+
+- **[Eclipse CANought](https://projects.eclipse.org/projects/automotive.canought)** — Standardized CAN bus abstraction layer under the Eclipse Software Defined Vehicle (SDV) working group.
+- **[Fleet Management System](https://github.com/sachnaror/fleet-management-system)** — Microservices framework in FastAPI for fleet tracking and CAN analysis.
+
+---
+
+## 📈 Star History 🌟
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Automotive-Telematics-EV-Analytics&type=date&legend=top-left)
+
+---
+
+## ☕ Support 💖
+
+Thank you so much for exploring and using this collection! Maintaining and curating open-source automotive telematics and EV intelligence resources requires ongoing research and community feedback.
+
+If you find this repository valuable, please consider:
+- ⭐ **Starring** the repository on GitHub
+- 🍴 **Forking** and contributing your favorite open-source vehicle tools
+- 📢 **Sharing** this repository with other automotive developers, fleet engineers, and EV enthusiasts
+- ☕ **Sponsoring or buying a coffee** via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Every contribution helps keep this directory up-to-date and comprehensive!
+
+---
+
+## 🤝 How to Contribute 🚀
+
+Contributions are welcome and encouraged!
+
+1. Fork the repository
+2. Add a new tool under the appropriate section (keep SaaS and Open-Source strictly separate)
+3. Use the established format: **[Repo/Name](link)** <a href="link/stargazers"><img src="..."/></a> — Description
+4. Prefer actively maintained projects with clear documentation and real vehicle/hardware compatibility
+5. Submit a Pull Request
+
+---
+
+## ⚠️ Disclaimer 🛡️
+
+This is a community-curated list for informational and educational purposes only. Inclusion does not constitute an official endorsement.
+
+Vehicle data collection, CAN bus interaction, and remote commands involve critical safety and legal implications. Always verify hardware compatibility, vehicle warranty guidelines, cryptographic security, and regulatory compliance (e.g., FMCSA ELD regulations, GDPR, and automotive cybersecurity standards) before attaching hardware or deploying software in active vehicles.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for the open-source and automotive community</b><br>
+  If this project helped you, please ⭐ the repository!
+</p>
